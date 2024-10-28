@@ -14,7 +14,7 @@ class BowlingGame:
         if i >= len(self._frames):
             raise BowlingError
         return self._frames[i]
-    
+
     def calculate_score(self) -> int:
         pass
 
